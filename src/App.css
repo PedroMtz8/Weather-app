@@ -1,0 +1,48 @@
+
+body{
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.App {
+  text-align: center;
+ 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 50px;
+  margin-top: -20px;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (max-width: 400px){
+  body {
+    background-size: cover;
+    background-image: url(./img/background.png);
+    background-attachment: fixed;
+
+}
+}
